@@ -20,10 +20,10 @@
         @endif
     </head>
    <body>
-    @include('home.components.navbar')
+    @include('admin.components.adminNavbar')
 
 
     @yield('content')
-    @include('home.components.footer')
+    @include('admin.components.adminSidebar')
    </body>
 </html>
